@@ -1,0 +1,34 @@
+.blog_card{
+    /* width: 800px; */
+    padding: 10px;
+}
+.topic_card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    border: 1px solid rgb(231, 229, 229);
+    cursor: pointer;
+    padding: 20px;
+}
+.blog_topic h3{
+    color: #09b0da;
+}
+.blog_topic p{
+    color: rgb(95, 93, 93);
+    font-size: 16px;
+}
+.topic_card:hover{
+    background-color: rgba(243, 236, 236, 0.699);
+}
+@media(max-width:600px){
+    .show_data .main_data img{
+        width: 400px;
+        height: 250px;
+    }
+    .show_data .main_data iframe{
+        width: 370px;
+        height: 200px;
+    }
+}
+
